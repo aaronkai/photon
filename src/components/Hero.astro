@@ -1,0 +1,11 @@
+<header class=" max-h-80 overflow-hidden relative grid items-center">
+  <picture>
+    <source type="image/webp" srcset="/hero-2000.webp" media="(min-width:1536px)" />
+    <source type="image/webp" srcset="/hero-1280.webp" media="(min-width:1024px)" />
+    <img class="w-full" src="/hero-640.webp" alt="arial view of Blue Ridge Mountains" />
+  </picture>
+  <div class="bg-gradient-to-br from-purple-400 via-pink-500 to-red-500 h-80 w-full z-0 absolute mix-blend-screen"></div>
+  <div class="px-6 md:px-12 py-4 z-10 absolute grid gap-4">
+    <slot />
+  </div>
+</header>

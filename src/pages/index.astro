@@ -1,0 +1,18 @@
+---
+	import MainHead from '../components/MainHead.astro'
+	import InnerBodyWrapper from '../layouts/InnerBodyWrapper.astro'
+	import Carousel from '../components/Carousel.svelte'
+---
+<html lang="en" class="h-screen">
+
+<head>
+	<MainHead />
+</head>
+
+<body class="min-h-screen">
+	<InnerBodyWrapper>
+		<Carousel client:load />
+	</InnerBodyWrapper>
+</body>
+
+</html>
